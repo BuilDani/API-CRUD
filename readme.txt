@@ -1,26 +1,10 @@
-🔹 1. API de Produtos com Autenticação
+Simples todo list, show crud work in high level JS Script
 
-Objetivo: Mostrar backend, CRUD e autenticação.
-Stack: Node.js, Express, MongoDB, JWT.
+use of localStorage and simple use of html
 
-O que fazer:
+the ideia is create a todolist to be the predecessor of the app android todo list
 
-Criar servidor com Express.
+just run the html and index in same folder and everything should work as intended, the task.js in other hand is like the previus version, is more complex, I want to put them togheter in the same html to see the diferences
 
-Rotas CRUD:
 
-POST /products → criar produto.
 
-GET /products → listar produtos.
-
-PUT /products/:id → atualizar produto.
-
-DELETE /products/:id → deletar produto.
-
-Rotas de login/register com JWT.
-
-Middleware pra proteger rotas (authMiddleware).
-
-MongoDB Atlas pra salvar dados (produto: nome, preço, categoria).
-
-Testar com Postman.
